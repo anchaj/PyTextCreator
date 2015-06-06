@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+<form method="POST">
+    <h1>Generowanie protokołu</h1>
+    <span>Województwo: </span><input type="text" name="voivodeship"/><br>
+    <span>Powiat: </span><input type="text" name="powiat"/><br>
+    <span>Jednostka ewidencyjna: </span><input type="text" name="registry_unit"/><br>
+    <span>Nazwa jednostki: </span><input type="text" name="precinct_name"/><br>
+    <span>Numer jednostki: </span><input type="text" name="precinct_number"/><br>
+    <span>Tytuł protokołu: </span><input type="text" name="title"/><br>
+    <span>Opis protokołu: </span><input type="text" name="subtitle"/><br>
+    <span>Tabela:</span>
+    <textarea rows = "10" cols = "100" name="table">
+
+    </textarea>
+    <input type="hidden" name="doc_type" value="protocol_submit"/>
+    <input type="submit" value="Generuj protokół"/>
+</form>
+</body>
+</html>

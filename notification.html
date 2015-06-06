@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<form method="POST">
+    <h1>Generowanie zawiadomienia</h1>
+
+    <span>Dane geodety:</span><br>
+    <span>Imię: </span><input type="text" name="name"/><br>
+    <span>Nazwisko: </span><input type="text" name="surname"/><br>
+    <span>NIP: </span><input type="text" name="nip"/><br>
+    <span>REGON: </span><input type="text" name="regon"/><br>
+    <span>Dane geodety - adres:</span><br>
+    <span>Ulica: </span><input type="text" name="street"/><br>
+    <span>Numer domu/mieszkania: </span><input type="text" name="number"/><br>
+    <span>Miejscowość: </span><input type="text" name="place"/><br>
+    <span>Kod pocztowy: </span><input type="text" name="postcode"/><br>
+    
+    <br>
+    
+    <span>Tytuł zawiadomienia: </span><input type="text" name="subtitle"/><br>
+    <span>Treść zawiadomienia:</span>
+    <textarea rows = "10" cols = "100" name="content">
+
+    </textarea>
+    <input type="hidden" name="doc_type" value="notification_submit"/>
+    <input type="submit" value="Generuj zawiadomienie"/>
+</form>
+</body>
+</html>
