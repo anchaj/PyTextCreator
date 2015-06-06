@@ -6,7 +6,6 @@ HOST_NAME = "localhost"
 PORT = 1050
 
 
-
 class ServerHTTP(object):
     def __init__(self, host=HOST_NAME, port=PORT, handler_on_post_callable=None):
         def handler(*args):
