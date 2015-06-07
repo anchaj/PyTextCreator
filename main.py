@@ -5,7 +5,6 @@ from UserString import MutableString
 
 from ServerHTTP import ServerHTTP
 
-
 result = MutableString()
 
 
@@ -82,7 +81,6 @@ class Printer:
 
     def __init__(self, table_tags):
         self.table_tags = table_tags
-
 
     @abc.abstractmethod
     def start_center(self):
